@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>disappearing_ninja</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="ninja_div"> 
+            <img class="ninja_img ninja1" src="ninja.jpg" alt="ninja_img">
+        </div>  
+        <div class="ninja_div">  
+            <img class="ninja_img ninja2" src="ninja.jpg" alt="ninja_img">
+        </div>
+        <div class="ninja_div">    
+            <img class="ninja_img ninja3" src="ninja.jpg" alt="ninja_img">
+        </div>
+        <div class="ninja_div">    
+            <img class="ninja_img ninja4" src="ninja.jpg" alt="ninja_img">
+        </div>
+        <div class="ninja_div">
+            <img class="ninja_img ninja5" src="ninja.jpg" alt="ninja_img">
+        </div>
+        <div class="ninja_div">            
+            <img class="ninja_img ninja6" src="ninja.jpg" alt="ninja_img">
+        </div>
+        <div class="ninja_div">
+            <img class="ninja_img ninja7" src="ninja.jpg" alt="ninja_img">
+        </div>
+        <div class="ninja_div">
+            <img class="ninja_img ninja8" src="ninja.jpg" alt="ninja_img">
+        </div>
+        <button class="reset_btn">Restore</button>
+    </div>
+    <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>    
+    <script>
+        $('.ninja1').click(function(){
+            $('.ninja1').hide();
+        });
+
+        $('.ninja2').click(function(){
+            $('.ninja2').hide();
+        });
+
+        $('.ninja3').click(function(){
+            $('.ninja3').hide();
+        });
+
+        $('.ninja4').click(function(){
+            $('.ninja4').hide();
+        });
+
+        $('.ninja5').click(function(){
+            $('.ninja5').hide();
+        });
+
+        $('.ninja6').click(function(){
+            $('.ninja6').hide();
+        });
+        
+        $('.ninja7').click(function(){
+            $('.ninja7').hide();
+        });
+
+        $('.ninja8').click(function(){
+            $('.ninja8').hide();
+        });
+
+        $('.reset_btn').click(function(){
+            $('.ninja_img').show();
+        });
+    </script>
+</body>
+</html>

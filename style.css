@@ -1,0 +1,36 @@
+*{
+    outline: 1px dotted red;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    margin: 0px auto;
+    width: 100%;
+    height: 1000px;
+    padding: 40px 0px 0px 40px;
+    position: relative;
+}
+.ninja_img{
+    width: 100%;
+    height: 100%;
+    
+    /* display: inline-block; */
+}
+.ninja_div{
+    width:20%;
+    height: 16%;
+    margin: 20px 0px 20px 30px;
+    display: inline-block;
+}
+.reset_btn{
+    position: absolute;
+    left: 0;
+    height:5%;
+    width: 10%;
+    margin: 220px 0px 0px 70px;
+    background-color: green;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    font-size: 17px;
+}
